@@ -1,0 +1,118 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you?",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "procedure",
+        "patterns": [
+          "Hello, what is the procedure for admission to the first year of the Bachelor's degree?"
+         
+        ],
+        "responses": [
+          "you have to bring your documents as mentioned - Adhar Card, Nationality Certificate, Domicile Certificate, income certificate,caste certificate, Allotment Letter "
+          
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "fees",
+        "patterns": [
+          "How much fees for first year?",
+          "fees for first year?",
+          "first year fees"
+        ],
+        "responses": [
+          "fees for first year is RS. 50,000"
+        ]
+      },
+      {
+        "tag": "IT placement",
+        "patterns": [
+          "Placement for IT Department",
+          "IT department placement",
+          "average pakage for IT department"
+        ],
+        "responses": [
+          "The placement is quite good in VIIT , for IT department it is 98% and the average pakage is 9 LPA"
+          
+        ]
+      },
+      {
+        "tag": "CS placement",
+        "patterns": [
+          "Placement for CS Department",
+          "CS department placement",
+          "average pakage for CS department"
+        ],
+        "responses": [
+          "The placement is quite good in VIIT , for CS department it is 100% and the average pakage is 10 LPA"
+          
+        ]
+      },
+      {
+        "tag": "E&TC placement",
+        "patterns": [
+          "Placement for E&TC Department",
+          "E&TC department placement",
+          "average pakage for E&TC department"
+        ],
+        "responses": [
+          "The placement is quite good in VIIT , for E&TC department it is 98% and the average pakage is 7 LPA"
+          
+        ]
+      },
+      {
+        "tag": "class",
+        "patterns": [
+          "what is the intake of IT department?",
+          "How many divisions are there?",
+          "what is the class strength?"
+        ],
+        "responses": [
+          "The class strength is 60 students per class and there are 3 divisions so the total intake is 180."
+          
+        ]
+      }
+    ]
+  }
